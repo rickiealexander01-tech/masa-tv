@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reproductor en Vivo</title>
+    <style>
+        body { margin: 0; background: black; display: flex; flex-direction: column; height: 100vh; }
+        iframe { flex: 1; width: 100%; border: none; }
+        .info-bar { color: white; padding: 10px; background: #333; font-family: sans-serif; }
+    </style>
+</head>
+<body>
+    <div class="info-bar" id="game-name">Cargando...</div>
+    <iframe id="main-player" src="" allowfullscreen></iframe>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById('game-name').innerText = params.get('title');
+        document.getElementById('main-player').src = params.get('url');
+    </script>
+</body>
+</html>

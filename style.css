@@ -1,0 +1,9 @@
+body { font-family: sans-serif; background: #1a1a1a; color: white; margin: 0; }
+header { background: #e50914; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+#main-container { max-width: 800px; margin: 20px auto; padding: 20px; }
+.game-container { background: #252525; margin-bottom: 10px; border-radius: 5px; }
+.game-header { padding: 15px; cursor: pointer; display: flex; align-items: center; }
+.game-header:hover { background: #333; }
+.options-panel { display: none; padding: 15px; background: #111; border-top: 1px solid #333; }
+.server-btn { display: block; width: 100%; padding: 10px; margin: 5px 0; background: #333; color: #ffcc00; border: none; cursor: pointer; text-align: left; }
+.server-btn:hover { background: #444; }
