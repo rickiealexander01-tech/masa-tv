@@ -30,3 +30,12 @@ function toggleOptions(el) {
     const panel = el.nextElementSibling;
     panel.style.display = (panel.style.display === 'block') ? 'none' : 'block';
 }
+// Prueba esto en tu script.js
+{ 
+    time: "Ahora", 
+    icon: "🔴", 
+    title: "Mi Transmisión en Vivo", 
+    servidores: [ 
+        { nombre: "Ver en Kick", url: "https://kick.com/rickey-dominicanobarca" } 
+    ] 
+}
