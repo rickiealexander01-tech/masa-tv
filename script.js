@@ -1,5 +1,5 @@
 const juegos = [
-    { time: "7:00 PM", icon: "⚽", title: "Chiringuito de jugones", servidores: [{nombre: "Opción 1", url: "URL1"},] },
+    { time: "6:00 PM", icon: "⚽", title: "Brazil VS Maruecus", servidores: [{nombre: "Opción 1", url: "URL1"},] },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
